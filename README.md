@@ -19,7 +19,7 @@ Example code of RPi3 connected to Xianning industrial Internet of things
 ## program
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"myDevices.h"`.The function of adding device is provided. To add a new device, only copy the structure, select the required variables and functions, and then expose the function of adding device. This way of adding devices is similar to the simple factory mode of Java.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So just need four steps,you can `upload sensor information and control devices`:</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Firstly`,According to other sensor templates, write the correct program of the device to be enabled.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Firstly`,According to other sensor templates, write the correct program of the device to be &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enabled.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Secondly`,Put the add device function declaration in "mydevices.h".</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Thirdly`,In the appropriate function position of "myPublish_up.c " enables one's own device to collect information or control the device.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Fourthly`,Inputing make to execute the makefile compilation project on the command line
