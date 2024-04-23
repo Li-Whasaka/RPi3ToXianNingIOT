@@ -11,7 +11,7 @@ Example code of RPi3 connected to Xianning industrial Internet of things
 ### The fourth  modify time
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I renamed repository "mosquitto" to "RPi3ToXianNingIOT",and Some code structures are optimized and new examples are added.</br>
 ## Introduction
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A sophomore wrote this. When I wrote it myself, I didn't have any reference materials. It was a bit buggy, but I was still able to establish contact with the cloud platform of the Internet of things to realize the sending, receiving and control of data. Hope to have a master to help improve and improve the code.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wrote this. When I wrote it myself, I didn't have any reference materials. It was a bit buggy, but I was still able to establish contact with the cloud platform of the Internet of things to realize the sending, receiving and control of data. Hope to have a master to help improve and improve the code.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can basically establish contact with all IOT cloud platforms through this program.just need you to modify some necessary information required.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、The necessary information mentioned above is contained in the header file named myMqtt.In it, I wrote a structure for storing those information.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、The device to be added also has a template structure in the header file named myDevices.You can refer to other equipment examples to imitate the equipment you need.</br>
